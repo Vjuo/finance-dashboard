@@ -1,16 +1,78 @@
-# React + Vite
+# 💰 Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and interactive **Finance Dashboard UI** built using React.  
+This project demonstrates frontend development skills including component-based architecture, state management, UI design, and data visualization.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Project Overview
 
-## React Compiler
+This dashboard allows users to:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- View financial summary (Balance, Income, Expenses)
+- Explore transaction history
+- Analyze spending patterns through charts
+- Switch between roles (Admin / Viewer)
+- Add transactions using a modal form
+- Toggle between Light and Dark themes
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+### 📊 Dashboard Overview
+- Summary cards for:
+  - Total Balance
+  - Total Income
+  - Total Expenses
+- Interactive charts:
+  - Line chart (balance trend)
+  - Pie chart (spending breakdown)
+
+---
+
+### 📋 Transactions Section
+- Display transaction list with:
+  - Date
+  - Category
+  - Amount
+  - Type (Income / Expense)
+- Search/filter functionality
+- Admin can:
+  - Add transactions via modal form
+
+---
+
+### 🔐 Role-Based UI
+- Viewer:
+  - Can only view data
+- Admin:
+  - Can add transactions
+- Role switch implemented using dropdown
+
+---
+
+### 💡 Insights
+- Highlights highest spending category
+- Basic data analysis from transactions
+
+---
+
+### 🌙 Dark Mode
+- Toggle between light and dark themes
+- Implemented using Tailwind CSS dark mode
+
+---
+
+### 💾 Data Persistence
+- Data stored in browser using LocalStorage
+- Transactions persist after page reload
+
+---
+
+## 🧠 Tech Stack
+
+- React (Vite)
+- Tailwind CSS
+- Recharts (for charts)
+
